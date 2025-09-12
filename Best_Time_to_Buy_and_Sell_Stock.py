@@ -1,0 +1,55 @@
+# Task: Maximum Profit from Stock Trading (Multiple Transactions Allowed)
+
+# Problem Description
+
+# Input will be a csv  with the prices of a given stock on a range of days.
+# On each day, you may decide to buy and/or sell the stock.
+# You can only hold at most one share of the stock at any time. 
+# However, you can buy it then immediately sell it on the same day.
+
+# Find and return the maximum profit you can achieve.
+
+# Output
+# Maximum Profit: Total achievable profit
+
+# Transaction Summary:
+
+# Buy Day (date & price)
+# Sell Day (date & price)
+# Profit earned per transaction
+
+# Final Report: Table summarizing all transactions and total profit total Maximum Profit and the number of Transactions usiing tabulate lib
+
+# Example
+
+# Maximum Profit: $11.93
+# Total Number of Transactions: 8
+# Transaction Details:
+# ╒═══════════╤═══════════╤══════════════╤══════════════╤══════════╕
+# │ Buy Day   │ Sell Day  │ Buy Price    │ Sell Price   │ Profit   
+# ╞═══════════╪═══════════╪══════════════╪══════════════╪══════════╡
+# │ 0         │ 1         │ $100.00      │ $100.91      │ $0.91    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 2         │ 3         │ $100.55      │ $101.78      │ $1.23    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 3         │ 4         │ $101.78      │ $104.79      │ $3.01    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 6         │ 7         │ $103.65      │ $106.84      │ $3.19    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 7         │ 8         │ $106.84      │ $108.39      │ $1.55    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 9         │ 10        │ $107.29      │ $108.37      │ $1.08    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 12        │ 13        │ $106.19      │ $106.62      │ $0.43    
+# ├───────────┼───────────┼──────────────┼──────────────┼──────────┤
+# │ 17        │ 18        │ $95.59       │ $96.12       │ $0.53    
+# ╘═══════════╧═══════════╧══════════════╧══════════════╧══════════╛
+
+# Total Profit: $11.93
+
+# Constraints
+
+# 1 ≤ number of days ≤ 30,000
+# 0 ≤ stock price ≤ 10,000
+
+# Note: The input should be read from a CSV file. The CSV file must have at least two columns: 'Date' and 'Close'. The program should process the data and output the maximum profit along with the transaction details.
