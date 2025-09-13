@@ -1,0 +1,26 @@
+IMPORT CODES FOR NUMPY ARRAYS
+
+# Dictionary format
+from Data_breakdown import get_data_arrays
+
+# Tuple format  
+from Data_breakdown import load_stock_data
+
+How to access numpy arrays
+
+
+Dictionary Format:
+
+data = get_data_arrays('NVDA_daily_data.csv')
+
+dates = data['date']
+close_prices = data['close_price']
+open_prices = data['open_price']
+high_prices = data['high_price']
+low_prices = data['low_price']
+adj_close_prices = data['adj_close_price']
+volumes = data['volume']
+
+Tuple Format:
+-------------
+dates, open_prices, high_prices, low_prices, close_prices, adj_close_prices, volumes = load_stock_data('NVDA_daily_data.csv')

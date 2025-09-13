@@ -1,1 +1,1 @@
-# Upward & downward runs detection (with price and runs highlighted on a graph) 
+# Upward & downward runs detection (with price and runs highlighted on a graph)
